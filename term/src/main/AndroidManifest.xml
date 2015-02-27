@@ -4,7 +4,7 @@
       android:versionName="1.0.65"
       android:versionCode="66"
       android:installLocation="auto">
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="11" />
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="21" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -87,7 +87,8 @@
             </intent-filter>
         </activity>
         <activity android:name="TermPreferences"
-                android:label="@string/preferences"/>
+                android:label="@string/preferences"
+                android:theme="@style/Theme" />
         <activity android:name="WindowList"
                 android:label="@string/window_list" />
         <service android:name="TermService" />

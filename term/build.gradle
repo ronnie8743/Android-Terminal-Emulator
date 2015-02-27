@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 11
+    compileSdkVersion 21
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "jackpal.androidterm"
         minSdkVersion 3
-        targetSdkVersion 11
+        targetSdkVersion 21
 
         ndk {
             moduleName "libjackpal-androidterm4"
